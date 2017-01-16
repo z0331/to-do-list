@@ -1,0 +1,16 @@
+.to-do-list {
+    padding-bottom: 25px;
+}
+
+.form {
+    padding-top: 25px;
+}
+
+.row {
+    width: 100%;
+    border: 1px solid black;
+}
+
+li {
+    border: 1px solid black;
+}

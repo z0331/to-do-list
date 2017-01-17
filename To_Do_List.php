@@ -1,12 +1,10 @@
 <link rel="stylesheet" href="css/to-do-list.css">
 
 <?php
-error_reporting(E_ALL);
-ini_set("display_errors","On");
 require('toDoItem.php');
 
 session_start([
-    'cookie_lifetime' => 10
+    'cookie_lifetime' => 86400
 ]);
 
 

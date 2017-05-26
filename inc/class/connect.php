@@ -1,8 +1,8 @@
 <?php
 
-$dsn = "DATABASE";
-$username = "USERNAME";
-$password = "PASSWORD";
+$dsn = "mysql:host=localhost;dbname=to_do_list;charset=utf8";
+$username = "root";
+$password = "Skaarjh1!";
 
 //Try&catch for connection to database
 try {
